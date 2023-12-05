@@ -1,0 +1,29 @@
+.sub{
+    color: #B1B1B1;
+    font-size: 14px;
+}
+
+.award{
+    border: 1px solid #05ABE2;
+    padding: .5rem;
+    display: flex;
+    min-width: 140px;
+    flex-direction: column;
+    border-radius: .5rem;
+    gap: .5rem;
+}
+
+.award img{
+    height: 32px !important;
+    width: 32px !important;
+    object-fit: contain !important;
+}
+
+.award div{
+    display: flex;
+    gap: .5rem;
+}
+
+.sub{
+    margin: auto;
+}

@@ -1,0 +1,50 @@
+.header{
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-search{
+    border-radius: .2rem;
+}
+
+.header-search input{
+    padding: .8rem 2rem;
+    width: 600px;
+    border: none;
+    background-color: #F6F6F7;
+}
+
+.header-search button{
+    padding: .8rem .8rem;
+    color: white;
+    border-radius: .2rem;
+    background-color: #39C0ED;
+    border: none;
+}
+
+.header-icon{
+    display: flex;
+    gap: 2rem;
+}
+
+.header-right{
+    display: flex;
+    background-color: #F6F6F7;
+    border-radius: 1rem;
+    padding: .2rem .4rem;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.avatar-small{
+    border-radius: 50%;
+}
+
+.username{
+    padding: 0 .5rem;
+    opacity: 0.8;
+    color: #6D6D6D;
+}
